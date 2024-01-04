@@ -1,0 +1,10 @@
+package Class22;
+
+public class BankAccountTester {
+    public static void main(String[] args) {
+        BankAccount b=new BankAccount(3000,"Karimi","trump123");
+        System.out.println(b.getBalance());
+        b.setBalance();
+        System.out.println(b.getBalance());
+    }
+}
